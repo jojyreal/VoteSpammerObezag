@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         vote spammer
-// @namespace    http://tampermonkey.net/
+// @namespace    http://greasyfork.org/
 // @version      2024-10-19
 // @description  try to take over this website with obezag votes
 // @author       kroneckr
@@ -33,10 +33,10 @@
             voteButton.click(); // Trigger a click on the vote button
             clearInterval(intervalId); // Stop the interval after clicking
 
-            // Wait 0.25 seconds (250 milliseconds) before reloading the page
+            // Wait 0.50 seconds (500 milliseconds) before reloading the page
             setTimeout(() => {
                 window.location.reload(); // Reload the page after the delay
-            }, 500); // Delay of 250 milliseconds
+            }, 500); // Delay of 500 milliseconds
         } else {
             console.log('Vote button not found');
         }
