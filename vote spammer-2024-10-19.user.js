@@ -4,7 +4,7 @@
 // @version      2024-10-19
 // @description  try to take over this website with obezag votes
 // @author       kroneckr
-// @match        https://www.si.com/high-school/maryland/top-10-high-school-mascots-in-maryland-vote-for-the-best-01jabjn1jkb1
+// @match        https://www.si.com/high-school/national/national-high-school-mascot-bracket-round-2-vote-for-key-obezags-or-harpeth-hall-honeybears-01jqc0hdj8pj
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=si.com
 // @grant        none
 // ==/UserScript==
@@ -19,7 +19,7 @@
 
         // Loop through each element to find the one with the specific text content
         elements.forEach(element => {
-            if (element.textContent.trim() === 'Obezags (Key HS)') {
+            if (element.textContent.trim() === '1. Key Obezags (Maryland)') {
                 element.click(); // Trigger a click on the element
                 clearInterval(intervalId); // Stop the interval after the element is clicked
             }
