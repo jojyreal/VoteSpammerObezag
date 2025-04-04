@@ -4,7 +4,7 @@
 // @version      2024-10-19
 // @description  try to take over this website with obezag votes
 // @author       kroneckr
-// @match        https://www.si.com/high-school/national/national-high-school-mascot-bracket-round-2-vote-for-key-obezags-or-harpeth-hall-honeybears-01jqc0hdj8pj
+// @match        https://www.si.com/high-school/national/national-high-school-mascot-bracket-sweet-16-vote-for-key-obezags-or-frankfort-hot-dogs-01jr0p6h6xfr
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=si.com
 // @grant        none
 // ==/UserScript==
